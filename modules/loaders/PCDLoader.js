@@ -9,6 +9,7 @@ import {
 	PointsMaterial
 } from '../three.module.js';
 
+
 class PCDLoader extends Loader {
 
 	constructor( manager ) {
