@@ -44,9 +44,7 @@
     <div>Loading, please wait...</div>
   </div>
 
-  <script>
-    import { PCDLoader } from 'three/addons/loaders/PCDLoader.js';
-    
+  <script>    
     document.addEventListener("DOMContentLoaded", function () {
       const scene = document.querySelector("a-scene");
       const entity = document.getElementById("point-cloud");
@@ -57,7 +55,7 @@
       });
 
       // Load PCD file
-      const loader = new PCDLoader();
+      const loader = new THREE.PCDLoader();
       loader.load('https://aidenhammond.github.io/smallsat-point-clouds/exp-150.pcd', function (points) {
         points.geometry.center();
         points.scale.set(10, 10, 10); // Adjust scale as needed
