@@ -1,5 +1,5 @@
-import * as THREE from './modules/three.module.js';
-import { PCDLoader } from './modules/loaders/PCDLoader.js';
+import * as THREE from 'three.module.js';
+import { PCDLoader } from 'PCDLoader.js';
 
 document.addEventListener("DOMContentLoaded", function () {
   const scene = document.querySelector("a-scene");
