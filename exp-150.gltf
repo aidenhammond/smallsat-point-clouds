@@ -14,7 +14,58 @@
 	],
 	"nodes":[
 		{
-			"name":"point_cloud_filtered"
+			"mesh":0,
+			"name":"point_cloud_filtered",
+			"translation":[
+				0,
+				1.4997304677963257,
+				3.424093008041382
+			]
+		}
+	],
+	"meshes":[
+		{
+			"name":"point_cloud_filtered",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0
+					},
+					"mode":0
+				}
+			]
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":34409,
+			"max":[
+				2.3198812007904053,
+				1.5382084846496582,
+				-2.684999465942383
+			],
+			"min":[
+				-2.2839348316192627,
+				-2.913630485534668,
+				-3.7542684078216553
+			],
+			"type":"VEC3"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":412908,
+			"byteOffset":0,
+			"target":34962
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":412908,
+			"uri":"exp-150.bin"
 		}
 	]
 }
