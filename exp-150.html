@@ -65,7 +65,7 @@
         const loader = new THREE.PCDLoader();
         loader.load('https://aidenhammond.github.io/smallsat-point-clouds/exp-150.pcd', function (points) {
           points.geometry.center();
-          points.scale.set(0.1, 0.1, 0.1); // Adjust scale as needed
+          points.scale.set(10, 10, 10); // Adjust scale as needed
           entity.object3D.add(points);
         });
 
