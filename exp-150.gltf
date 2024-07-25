@@ -85,7 +85,7 @@
 	"buffers":[
 		{
 			"byteLength":374736,
-			"uri":"http://aidenhammond.github.io/smallsat-point-clouds/exp-150.bin"
+			"uri":"exp-150.bin"
 		}
 	]
 }
