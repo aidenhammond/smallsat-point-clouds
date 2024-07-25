@@ -36,14 +36,14 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":199738,
+			"count":89276,
 			"max":[
 				2.32985782623291,
-				3.049436569213867,
-				0.7526659369468689
+				3.0493528842926025,
+				0.7534648776054382
 			],
 			"min":[
-				-2.284193277359009,
+				-2.2872238159179688,
 				-1.4228614568710327,
 				-0.33816832304000854
 			],
@@ -52,39 +52,39 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":199738,
+			"count":89276,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5125,
-			"count":202650,
+			"count":89562,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":2396856,
+			"byteLength":1071312,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2396856,
-			"byteOffset":2396856,
+			"byteLength":1071312,
+			"byteOffset":1071312,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":810600,
-			"byteOffset":4793712,
+			"byteLength":358248,
+			"byteOffset":2142624,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":5604312,
+			"byteLength":2500872,
 			"uri":"exp-150.bin"
 		}
 	]
