@@ -15,23 +15,19 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"point_cloud_filtered",
-			"translation":[
-				0,
-				1.4997304677963257,
-				3.424093008041382
-			]
+			"name":"exp-150"
 		}
 	],
 	"meshes":[
 		{
-			"name":"point_cloud_filtered",
+			"name":"exp-150.001",
 			"primitives":[
 				{
 					"attributes":{
-						"POSITION":0
+						"POSITION":0,
+						"NORMAL":1
 					},
-					"mode":0
+					"indices":2
 				}
 			]
 		}
@@ -40,31 +36,55 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":34409,
+			"count":199738,
 			"max":[
-				2.3198812007904053,
-				1.5382084846496582,
-				-2.684999465942383
+				2.32985782623291,
+				3.049436569213867,
+				0.7526659369468689
 			],
 			"min":[
-				-2.2839348316192627,
-				-2.913630485534668,
-				-3.7542684078216553
+				-2.284193277359009,
+				-1.4228614568710327,
+				-0.33816832304000854
 			],
 			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":199738,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5125,
+			"count":202650,
+			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":412908,
+			"byteLength":2396856,
 			"byteOffset":0,
 			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":2396856,
+			"byteOffset":2396856,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":810600,
+			"byteOffset":4793712,
+			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":412908,
+			"byteLength":5604312,
 			"uri":"exp-150.bin"
 		}
 	]
